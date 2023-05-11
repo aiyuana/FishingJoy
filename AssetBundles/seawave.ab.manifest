@@ -1,0 +1,43 @@
+ManifestFileVersion: 0
+CRC: 556324543
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1e6bb30b92665b0aee29995bc192cf22
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 16d949f2b1dceb01c357187113cb5dc9
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: ccea4a6fa90a419408b512635d2f1a84, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Prefebs/SeaWave_0.prefab
+Dependencies: []
