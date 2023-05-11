@@ -46,7 +46,7 @@ public class M_HotFix : MonoBehaviour
     }
     IEnumerator LoadAB1(string reNAmae,string filePath,int resType)
     {
-        UnityWebRequest request = UnityWebRequestAssetBundle.GetAssetBundle("http://127.0.0.1:84/AssetBundles/" + filePath);
+        UnityWebRequest request = UnityWebRequestAssetBundle.GetAssetBundle("http://localhost:84/" + filePath);
         yield return request.SendWebRequest();
         AssetBundle ab = (request.downloadHandler as DownloadHandlerAssetBundle).assetBundle;
        GameObject go = ab.LoadAsset<GameObject>(reNAmae);

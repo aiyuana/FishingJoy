@@ -9,7 +9,9 @@ public class EmptyScript01 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Gun.Instance.level = 3;
+        EmptyMethod1();
+        EmptyMethod();
     }
 
     // Update is called once per frame
@@ -38,7 +40,7 @@ public class EmptyScript01 : MonoBehaviour
         
     }
     void EmptyMethod1()
-    
+
     {
         
     }

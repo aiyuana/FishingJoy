@@ -45,6 +45,14 @@ public class CreateFish : MonoBehaviour
 
     }
 
+    void loh()
+    {
+        Debug.Log("555");
+    }
+    void debh()
+    {
+        Debug.Log("ky1");
+    }
     void Update()
     {
 

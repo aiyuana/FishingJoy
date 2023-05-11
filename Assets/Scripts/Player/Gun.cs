@@ -22,7 +22,7 @@ public class Gun : MonoBehaviour
     private float rotateSpeed = 5f;
     public float attackCD = 1;
     private float GunCD = 4;
-    public int level = 1;
+    public int level = 2;
 
     //引用
 

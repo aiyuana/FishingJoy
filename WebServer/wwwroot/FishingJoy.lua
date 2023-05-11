@@ -165,9 +165,11 @@ xlua.hotfix(CS.CreateFish,'Update',function(self)
     --浪潮控制
     if canCreateNewFish then
         if waveTimeVal> 60then
+          self:loh()
             --通过AB包加载生成浪潮
             GameObject.Instantiate(CS.Gun.Instance.hot:GetPre("SeaWave_0"))
-            canCreateNewFish=false
+            self:debh()
+            
             waveTimeVal=0
         else
             waveTimeVal=waveTimeVal+ Time.deltaTime
@@ -375,7 +377,7 @@ xlua.hotfix(CS.EmptyScript01,'EmptyMethod1',function(self)
     if Cs.Gun.Instance.level==4 then
         CS.Gun.Instance.level=1
     end
-    canCreateNewFish=true
+   
     CS.UnityEngine.Object.Destroy(self.gameObject)
 end)
 

@@ -1,7 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using XLua;
+[Hotfix]
 /// <summary>
 /// boss攻击玩家产生的震动方法
 /// </summary>
